@@ -1,0 +1,24 @@
+{
+  "name": "id-parser",
+  "version": "0.0.2",
+  "description": "中国身份证号码解析器，传入身份证号，返回 【户籍地】【出生年月】【性别】",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haobingwang/id-parser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haobingwang/id-parser/issues"
+  },
+  "homepage": "https://github.com/haobingwang/id-parser#readme",
+  "dependencies": {
+    "gb2260": "^0.6.0-beta",
+    "moment": "^2.17.1"
+  }
+}

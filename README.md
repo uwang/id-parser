@@ -11,9 +11,9 @@ var idParser = require('id-parser');
 
 //只处理 18位字符串
 console.log(idParser.get('430421197710177894'));
-// { locale: '湖南省 衡阳市 衡阳县', birthday: moment("1977-10-17T00:00:00.000"), sex: '男' }
+// { hometown: '湖南省 衡阳市 衡阳县', birthday: moment("1977-10-17T00:00:00.000"), sex: '男' }
 console.log(idParser.get('45222319950814004X'));
-// { locale: '无对应数据', birthday: moment("1995-08-14T00:00:00.000"), sex: '女' }
+// { hometown: '无对应数据', birthday: moment("1995-08-14T00:00:00.000"), sex: '女' }
 ```
 
 ## 号码的结构

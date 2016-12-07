@@ -16,7 +16,7 @@ function get(id) {
   var hometown = division!==null ? division.toString() : '无对应数据';
   var date = moment(id.substring(6,14),'YYYYMMDD');
   return {
-    hometown,
+    hometown: hometown,
     birthday: date.isValid() ? date : moment(),
     sex: id.substring(16,17)%2 === 0 ? '女' : '男'
   }
